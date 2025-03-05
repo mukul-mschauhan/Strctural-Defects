@@ -22,3 +22,19 @@ This repository contains an implementation of concrete crack detection using the
 
 ## Purpose
 The dataset serves as a benchmark for developing and evaluating crack detection algorithms using deep learning techniques, aiding in the advancement of **structural health monitoring systems.**
+
+## Model Selection |📌 Key Advantages of ResNet (Residual Network):
+1. **Skip Connections (Residual Learning):**
+
+   * Allows information to bypass a few layers, solving vanishing gradient problems.
+   * Useful for very deep networks without performance degradation.
+
+2. **Depth without Overfitting:**
+
+   * ResNet-50 has **50 layers** but performs better than shallower networks like VGGNet or AlexNet.
+   * Greater depth enables the model to capture more complex patterns (like cracks, misalignments, etc.).
+
+3. **Efficiency and Accuracy:**
+
+   * Outperforms VGGNet and AlexNet with **fewer parameters** due to efficient use of residual blocks.
+   * Ideal for detecting small, subtle cracks and defects with high precision.
