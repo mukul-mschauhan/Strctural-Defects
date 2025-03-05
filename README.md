@@ -25,6 +25,8 @@ The dataset serves as a benchmark for developing and evaluating crack detection 
 
 ## Model Overview & Selection 
 ![image](https://github.com/user-attachments/assets/d193f3b6-c1a5-4d87-bd84-7f1d5f22f9d1)
+![image](https://github.com/user-attachments/assets/829ef67b-c1f2-4ae0-978b-d71b355f2e1e)
+
 
 ## 📌 Key Advantages of ResNet (Residual Network):
 1. **Skip Connections (Residual Learning):**
