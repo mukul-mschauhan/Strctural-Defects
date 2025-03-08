@@ -14,16 +14,16 @@ Based on the provided image, find the answers to the following:-
 1. Is there a structural defect (such as a crack, damage, hole, bend) visible in the image. Give the probability of the defect in Percentage
 2. What is the severity level of the defect (minor, moderate, severe) and what is the likelihood (in percentage) that this is a structural defect?
 3. What are the possible causes of the defect, considering material properties, environmental factors, and construction practices?
-4. Under what conditions (environment & mechanical impact) will the crack propagate further in terms of length, width, and depth?
+4. Under what conditions (environment & mechanical impact) will the crack/damage/hole/bend propagate further in terms of length, width, and depth?
 5. If a different grade of concrete were used, which properties (e.g., compressive strength, tensile strength, shrinkage) would be most relevant in mitigating the crack?
-6. How would rebar placement (e.g., spacing, diameter, location) influence the crack propagation and structural integrity?
-7. What is the estimated reduction in the safe live load capacity due to the presence of these cracks? What are the safety implications for the structure's intended use?
-8. What are the recommended steps for rectifying these cracks, including material selection and application techniques? What is the recommended gauging area for the rectification process?
-9. What specific criteria (e.g., crack width, depth, pattern, location) would necessitate the rejection of the slab?
+6. How would rebar placement (e.g., spacing, diameter, location) influence the crack/damage/hole/bend propagation and structural integrity?
+7. What is the estimated reduction in the safe live load capacity due to the presence of these crack/damage/hole/bend? What are the safety implications for the structure's intended use?
+8. What are the recommended steps for rectifying these crack/damage/hole/bend, including material selection and application techniques? What is the recommended gauging area for the rectification process?
+9. What specific criteria (e.g., crack/damage/hole/bend width, depth, pattern, location) would necessitate the rejection of the slab?
 10. Is a dehumidifier required during the rectification process?
-11. Would non-destructive testing (NDT) methods be beneficial in further assessing the crack and the overall structural integrity?
-12. Is long-term monitoring of the crack and the structure recommended?
-13. Does the observed crack violate any relevant building codes or industry standards? 
+11. Would non-destructive testing (NDT) methods be beneficial in further assessing the crack/damage/hole/bend and the overall structural integrity?
+12. Is long-term monitoring of the crack/damage/hole/bend and the structure recommended?
+13. Does the observed crack/damage/hole/bend violate any relevant building codes or industry standards? 
 '''
 
 def get_gemini_response(input,image):
