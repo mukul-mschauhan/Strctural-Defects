@@ -2,8 +2,6 @@
 ## Overview
 This repository contains an implementation of concrete crack detection using the **SDNET2018 dataset**, which includes over **56,000 images** of cracked and non-cracked concrete surfaces, such as bridge decks, walls, and pavements. The dataset is designed for training, validation, and benchmarking of AI-based crack detection algorithms, particularly focusing on **deep learning convolutional neural networks (CNNs)** for structural health monitoring.
 
-https://drive.google.com/file/d/1aFsB1_5N8DHtc2q6gLPVwvO9wxf4rk5W/view?usp=sharing
-
 ## Dataset Description
 - **Total Images:** 230 high-resolution images segmented into 256x256 px sub-images.
 - **Categories:**
