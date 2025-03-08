@@ -46,69 +46,55 @@ This prototype demonstrates an AI-powered system for detecting and analyzing con
 🖥️ Installation
 To run the project locally, follow these steps:
 
-Clone the repository:
+1. **Clone the repository:**
 
-bash
-Copy
-Edit
-git clone https://github.com/your-username/construction-defect-detection.git
-cd construction-defect-detection
-Create and activate a virtual environment:
+- `git clone https://github.com/your-username/construction-defect-detection.git`
+- `cd construction-defect-detection`
 
-bash
-Copy
-Edit
-python -m venv .venv
-.venv\Scripts\activate  # On Windows
-source .venv/bin/activate  # On Linux/Mac
-Install required packages:
+2. **Create and activate a virtual environment:**
+- `python -m venv .venv`
+- `.venv\Scripts\activate`  # On Windows
+- `source .venv/bin/activate`  # On Linux/Mac
 
-bash
-Copy
-Edit
-pip install -r requirements.txt
-Create a .env file for API Key:
+3. **Install required packages:**
+- `pip install -r requirements.txt`
 
-ini
-Copy
-Edit
-GOOGLE-API=your_google_api_key_here
-🛠️ Usage
+4. **Create a .env file for API Key:**
+- `GOOGLE-API=your_google_api_key_here`
+
+## 🛠️ Usage
 Run the application using Streamlit:
+- `streamlit run app.py`
 
-bash
-Copy
-Edit
-streamlit run app.py
-Upload an Image
-Upload a construction image (JPG, JPEG, PNG) from the sidebar.
-Click "Analyze for Defects" to get a detailed report.
-⚙️ Configuration
-.env file setup:
+5. **Upload an Image**
+- Upload a construction image (JPG, JPEG, PNG) from the sidebar.
+- Click "Analyze for Defects" to get a detailed report.
 
-ini
-Copy
-Edit
-GOOGLE-API=your_google_api_key_here
-📋 Prompt Design
+## ⚙️ Configuration
+- `.env file setup:`
+
+## 📋 Prompt Design
 The prompt provided to the Gemini API includes:
 
-Defect Detection: Identifies structural defects like cracks, damage, or bends.
-Severity Level: Assesses the defect's severity (minor, moderate, severe).
-Root Cause Analysis: Suggests possible causes based on material properties and environmental factors.
-Recommendations: Advises on rectification steps and materials.
-Compliance Check: Verifies if the defect violates any relevant building codes.
-🛠️ Technologies Used
-Python: Core programming language.
-Streamlit: Web framework for deploying machine learning models.
-Gemini API: For defect detection and analysis.
-PIL: For image handling.
-dotenv: For managing API keys securely.
-🤝 Contributing
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repository and submit pull requests.
+- Defect Detection: Identifies structural defects like cracks, damage, or bends.
+- Severity Level: Assesses the defect's severity (minor, moderate, severe).
+- Root Cause Analysis: Suggests possible causes based on material properties and environmental factors.
+- Recommendations: Advises on rectification steps and materials.
+- Compliance Check: Verifies if the defect violates any relevant building codes.
 
-📜 License
+## 🛠️ Technologies Used
+- **Python:** Core programming language.
+- **Streamlit:** Web framework for deploying machine learning models.
+- **Gemini API:** For defect detection and analysis.
+- **PIL:** For image handling.
+- **dotenv:** For managing API keys securely.
+
+## 🤝 Contributing
+- Contributions, issues, and feature requests are welcome!
+- Feel free to fork the repository and submit pull requests.
+
+## 📜 License
+
 This project is open-source and available under the MIT License.
 
 
