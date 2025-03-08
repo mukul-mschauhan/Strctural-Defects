@@ -85,7 +85,6 @@ The prompt provided to the Gemini API includes:
 ## 🛠️ Technologies Used
 - **Python:** Core programming language.
 - **Streamlit:** Web framework for deploying machine learning models.
-- **Gemini API:** For defect detection and analysis.
 - **PIL:** For image handling.
 - **dotenv:** For managing API keys securely.
 
