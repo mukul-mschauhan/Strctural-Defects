@@ -23,23 +23,83 @@ This repository contains an implementation of concrete crack detection using the
 ## Purpose
 The dataset serves as a benchmark for developing and evaluating crack detection algorithms using deep learning techniques, aiding in the advancement of **structural health monitoring systems.**
 
-## Model Overview & Selection 
-![image](https://github.com/user-attachments/assets/d193f3b6-c1a5-4d87-bd84-7f1d5f22f9d1)
-![image](https://github.com/user-attachments/assets/829ef67b-c1f2-4ae0-978b-d71b355f2e1e)
+📋 Table of Contents
+* Overview
+* Features
+* Installation
+* Usage
+* Configuration
+* Prompt Design
+* Technologies Used
+* Contributing
+
+## 🛠️ Overview
+This prototype demonstrates an AI-powered system for detecting and analyzing construction defects using the Gemini API and Streamlit. It can automatically identify structural issues in concrete surfaces, provide severity levels, possible causes, and suggest rectification steps.
+
+## 🚀 Features
+* **Defect Detection:** Identifies cracks, damage, holes, and bends with probability levels.
+* **Severity Assessment:** Classifies defects as minor, moderate, or severe.
+* **Root Cause Analysis:** Considers material properties, environmental factors, and construction practices.
+* **Recommendations:** Provides solutions and rectification steps.
+* **Integration Ready:** Designed for mobile apps and database integration in a production environment.
+
+🖥️ Installation
+To run the project locally, follow these steps:
+
+1. **Clone the repository:**
+
+- `git clone https://github.com/your-username/construction-defect-detection.git`
+- `cd construction-defect-detection`
+
+2. **Create and activate a virtual environment:**
+- `python -m venv .venv`
+- `.venv\Scripts\activate`  # On Windows
+- `source .venv/bin/activate`  # On Linux/Mac
+
+3. **Install required packages:**
+- `pip install -r requirements.txt`
+
+4. **Create a .env file for API Key:**
+- `GOOGLE-API=your_google_api_key_here`
+
+## 🛠️ Usage
+Run the application using Streamlit:
+- `streamlit run app.py`
+
+5. **Upload an Image**
+- Upload a construction image (JPG, JPEG, PNG) from the sidebar.
+- Click "Analyze for Defects" to get a detailed report.
+
+## ⚙️ Configuration
+- `.env file setup:`
+
+## 📋 Prompt Design
+The prompt provided to the Gemini API includes:
+
+- Defect Detection: Identifies structural defects like cracks, damage, or bends.
+- Severity Level: Assesses the defect's severity (minor, moderate, severe).
+- Root Cause Analysis: Suggests possible causes based on material properties and environmental factors.
+- Recommendations: Advises on rectification steps and materials.
+- Compliance Check: Verifies if the defect violates any relevant building codes.
+
+## 🛠️ Technologies Used
+- **Python:** Core programming language.
+- **Streamlit:** Web framework for deploying machine learning models.
+- **Gemini API:** For defect detection and analysis.
+- **PIL:** For image handling.
+- **dotenv:** For managing API keys securely.
+
+## 🤝 Contributing
+- Contributions, issues, and feature requests are welcome!
+- Feel free to fork the repository and submit pull requests.
+
+## 📜 License
+
+This project is open-source and available under the MIT License.
 
 
-## 📌 Key Advantages of ResNet (Residual Network):
-1. **Skip Connections (Residual Learning):**
 
-   * Allows information to bypass a few layers, solving vanishing gradient problems.
-   * Useful for very deep networks without performance degradation.
 
-2. **Depth without Overfitting:**
 
-   * ResNet-50 has **50 layers** but performs better than shallower networks like VGGNet or AlexNet.
-   * Greater depth enables the model to capture more complex patterns (like cracks, misalignments, etc.).
 
-3. **Efficiency and Accuracy:**
 
-   * Outperforms VGGNet and AlexNet with **fewer parameters** due to efficient use of residual blocks.
-   * Ideal for detecting small, subtle cracks and defects with high precision.
