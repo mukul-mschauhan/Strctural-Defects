@@ -9,11 +9,11 @@ import pathlib
 
 genai.configure(api_key=os.getenv("GOOGLE-API"))
 prompt = '''
-Act as a Structural & Civil Engineering Expert & Generate Bullet Point Answer in Crisp One to 2 Line Max.
-Based on the provided image of a concrete surface, find the answers to the following:-
+Act as a Structural & Civil Engineer & Generate Bullet Point Answer in Crisp One to 2 Line Max.
+Based on the provided image, find the answers to the following:-
 1. Is there a structural defect (such as a crack, damage, hole, bend) visible in the image. Give the probability of the defect in Percentage
-2. What is the severity level of the defect (minor, moderate, severe) and what is the likelihood that this is a structural defect?
-3. What are the possible causes of the crack, considering material properties, environmental factors, and construction practices?
+2. What is the severity level of the defect (minor, moderate, severe) and what is the likelihood (in percentage) that this is a structural defect?
+3. What are the possible causes of the defect, considering material properties, environmental factors, and construction practices?
 4. Under what conditions (environment & mechanical impact) will the crack propagate further in terms of length, width, and depth?
 5. If a different grade of concrete were used, which properties (e.g., compressive strength, tensile strength, shrinkage) would be most relevant in mitigating the crack?
 6. How would rebar placement (e.g., spacing, diameter, location) influence the crack propagation and structural integrity?
